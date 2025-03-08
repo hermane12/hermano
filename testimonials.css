@@ -1,0 +1,47 @@
+/* Styles spécifiques à la page "Avis Clients" */
+#testimonials {
+    padding: 50px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5em;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* FadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+      }

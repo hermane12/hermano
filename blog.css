@@ -1,0 +1,45 @@
+/* Styles spécifiques à la page "Blog astuces" */
+#blog {
+    padding: 50px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.post h3 {
+    margin-top: 15px;
+    font-size: 1.8em;
+}
+
+.post p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+/* FadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+      }

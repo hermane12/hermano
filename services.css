@@ -1,0 +1,23 @@
+#services {
+    text-align: center;
+    padding: 50px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 300px;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+/* FadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
